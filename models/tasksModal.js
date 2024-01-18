@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+import mongoose from 'mongoose'
 
 const tasksShema = mongoose.Schema({
     title: {
@@ -13,7 +13,7 @@ const tasksShema = mongoose.Schema({
         type: Boolean,
         default: false, 
     }
-});
+})
 
 const Tasks = mongoose.model('tasks', tasksShema);
 
