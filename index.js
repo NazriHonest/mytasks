@@ -1,6 +1,6 @@
 import express from 'express';
 import mongoose from 'mongoose';
-import Tasks from './models/tasksModal.js';
+import Tasks from './models/tasksmodal';
 
 const app = express()
 
